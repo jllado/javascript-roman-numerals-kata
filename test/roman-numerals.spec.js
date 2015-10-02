@@ -7,4 +7,11 @@
  * V -> 5
  */
 describe('roman numerals', function () {
+  it("should return I when 1", function () {
+    expect(toRoman(1)).toEqual("I");
+  });
 });
+
+function toRoman(number) {
+  return "";
+}
