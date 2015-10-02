@@ -12,12 +12,16 @@
  */
 describe('roman numerals converter', function () {
   it("should convert integer to roman number", function () {
-    expect(toRoman(1)).toEqual("I");
-    expect(toRoman(2)).toEqual("II");
-    expect(toRoman(3)).toEqual("III");
-    expect(toRoman(4)).toEqual("IV");
-    expect(toRoman(5)).toEqual("V");
-    expect(toRoman(6)).toEqual("VI");
-    expect(toRoman(7)).toEqual("VII");
+    expect(toRomanNumber(1)).toEqual("I");
+    expect(toRomanNumber(2)).toEqual("II");
+    expect(toRomanNumber(3)).toEqual("III");
+    expect(toRomanNumber(4)).toEqual("IV");
+    expect(toRomanNumber(5)).toEqual("V");
+    expect(toRomanNumber(6)).toEqual("VI");
+    expect(toRomanNumber(7)).toEqual("VII");
   });
 });
+
+function toRomanNumber(number) {
+  return new RomanNumber(number).toString();
+}
