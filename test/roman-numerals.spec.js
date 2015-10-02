@@ -10,6 +10,9 @@ describe('roman numerals', function () {
   it("should return I when 1", function () {
     expect(toRoman(1)).toEqual("I");
   });
+  it("should return II when 2", function () {
+    expect(toRoman(2)).toEqual("II");
+  });
 });
 
 function toRoman(number) {
