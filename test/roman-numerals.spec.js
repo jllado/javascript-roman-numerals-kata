@@ -17,11 +17,3 @@ describe('roman numerals', function () {
     expect(toRoman(3)).toEqual("III");
   });
 });
-
-function toRoman(number) {
-  if (number === 3)
-    return "III";
-  if (number === 2)
-    return "II";
-  return "I";
-}
