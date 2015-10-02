@@ -13,6 +13,9 @@ describe('roman numerals', function () {
   it("should return II when 2", function () {
     expect(toRoman(2)).toEqual("II");
   });
+  it("should return III when 3", function () {
+    expect(toRoman(3)).toEqual("III");
+  });
 });
 
 function toRoman(number) {
