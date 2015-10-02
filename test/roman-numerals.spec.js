@@ -5,6 +5,10 @@
  * III -> 3
  * IV -> 4
  * V -> 5
+ * VI -> 6
+ * VII -> 7
+ * IX -> 9
+ * X -> 10
  */
 describe('roman numerals', function () {
   it("should return I when 1", function () {
@@ -21,5 +25,8 @@ describe('roman numerals', function () {
   });
   it("should return V when 5", function () {
     expect(toRoman(5)).toEqual("V");
+  });
+  it("should return VI when 6", function () {
+    expect(toRoman(6)).toEqual("VI");
   });
 });
