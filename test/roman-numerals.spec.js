@@ -13,5 +13,5 @@ describe('roman numerals', function () {
 });
 
 function toRoman(number) {
-  return "";
+  return "I";
 }
