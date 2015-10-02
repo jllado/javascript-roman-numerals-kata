@@ -5,14 +5,10 @@ module.exports = function (config) {
     basePath: '',
     frameworks: ['jasmine'],
     files: [
-      'test/phantom-polyfill.js',
-      'test/jasmine-aliases.js',
-      'node_modules/karma-babel-preprocessor/node_modules/babel-core/browser-polyfill.js',
       'src/**/*.js',
       'test/**/*.js'
     ],
     exclude: [],
-    reporters: ['spec'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
