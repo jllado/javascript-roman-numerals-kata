@@ -29,4 +29,7 @@ describe('roman numerals', function () {
   it("should return VI when 6", function () {
     expect(toRoman(6)).toEqual("VI");
   });
+  it("should return VII when 7", function () {
+    expect(toRoman(7)).toEqual("VII");
+  });
 });
