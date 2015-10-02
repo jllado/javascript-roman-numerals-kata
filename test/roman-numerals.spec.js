@@ -19,4 +19,7 @@ describe('roman numerals', function () {
   it("should return IV when 4", function () {
     expect(toRoman(4)).toEqual("IV");
   });
+  it("should return V when 5", function () {
+    expect(toRoman(5)).toEqual("V");
+  });
 });
