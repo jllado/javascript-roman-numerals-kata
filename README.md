@@ -1,0 +1,3 @@
+- Roman Numerals kata: http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals
+- Following The transformation priority premise: https://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
+- And final refactor to ES6 class: http://www.2ality.com/2015/02/es6-classes-final.html
